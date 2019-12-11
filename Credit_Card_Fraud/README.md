@@ -1,7 +1,5 @@
-# Caravan_Insurance
+# Credit_Card_Fraud
 
-This file shows the steps that I used to build a model for predicting whether a customer has mobile home insurance. The target variable is imbalanced with only 6% of customers having mobile home plans.
+The data for this model can be found at https://https://www.kaggle.com/mlg-ulb/creditcardfraud.
 
-Initial run and visualizations of attributes can be seen in CaravanPred1&Visual_NoDataCleaning.ipynb
-
-My final model can be found in FINALCaravanPred4_OversamplingA. Using LDA I was able to achieve a ROC AUC of 67%,  recall of 65%, and accuracy of 69%.
+The data was analyzed using the sklearn: KNN, Decision Tree, Random Forest, Adaboost, Gradiant Boosting, Gaussian, LDA, and QDA Classifiers. All models achieved relatively high recall of roughly 80% or higher. Adaboost and GradientBoosting Classifiers both had the highest AUC ROCs of roughly 87%, but were significantly less precise than the KNN, Decision Tree, and Random Forest Classifiers.
