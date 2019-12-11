@@ -1,6 +1,6 @@
 # Caravan_Insurance
 
-This file shows the steps that I used to build a model for predicting whether a customer has mobile home insurance. The target variable is imbalanced with only 6% of customers having mobile home plans.
+This folder shows the steps that I used to build a model for predicting whether a customer has mobile home insurance. The target variable is imbalanced with only 6% of customers having mobile home plans.
 
 Initial run and visualizations of attributes can be seen in CaravanPred1&Visual_NoDataCleaning.ipynb
 
